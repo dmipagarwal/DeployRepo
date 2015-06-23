@@ -19,5 +19,6 @@ namespace codeFirstSample.Models
 
         // This will keep track of the book this review belong too
         public virtual Book Book { get; set; }
+        //testing  push
     }
 }
