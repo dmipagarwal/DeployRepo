@@ -10,7 +10,7 @@ namespace codeFirstSample.Models
 {
     [Table("Books")] // Table name
     public class Book
-    //{
+    {
         [Key] // Primary key
         public int BookID { get; set; }
         public string BookName { get; set; }
