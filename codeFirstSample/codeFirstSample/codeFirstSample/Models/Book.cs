@@ -10,7 +10,7 @@ namespace codeFirstSample.Models
 {
     [Table("Books")] // Table name
     public class Book
-    {
+    //{
         [Key] // Primary key
         public int BookID { get; set; }
         public string BookName { get; set; }
@@ -18,6 +18,6 @@ namespace codeFirstSample.Models
 //My test
         // This is to maintain the many reviews associated with a book entity
         public virtual ICollection<Review> Reviews { get; set; }
-        //test
+        
     }
 }
