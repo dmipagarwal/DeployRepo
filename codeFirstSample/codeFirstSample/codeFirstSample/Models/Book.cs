@@ -18,6 +18,6 @@ namespace codeFirstSample.Models
 //My test
         // This is to maintain the many reviews associated with a book entity
         public virtual ICollection<Review> Reviews { get; set; }
-           //test  in  branch
+           //test  in  branch     ///
     }
 }
