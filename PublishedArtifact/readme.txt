@@ -1,1 +1,0 @@
-This folder will contain all the artifact which we will deploy on server
