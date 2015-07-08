@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BooksDbContext-Web.config Connection String" description="BooksDbContext Connection String used in web.config by the application to access the database." defaultValue="data source=.\SQLEXPRESS;attachdbfilename=|DataDirectory|\sampleDb.mdf;integrated security=True;user instance=True;multipleactiveresultsets=True;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\DeployRepo\\DeployRepo\\codeFirstSample\\codeFirstSample\\codeFirstSample\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BooksDbContext']/@connectionString" />
+  </parameter>
+</parameters>
